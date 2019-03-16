@@ -2,7 +2,7 @@
   <div id="app" class="container">
     <img alt="Vue logo" src="./assets/logo.png" class="logo">
     <ToDoList/>
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   </div>
 </template>
 
