@@ -18,6 +18,18 @@
         <div>{{ remaining }} items left</div>
     </div>
 
+     <div class="extra-container">
+      <div>
+        <button :class="{ active: filter == 'all' }" @click="filter = 'all'">All</button>
+        <button :class="{ active: filter == 'active' }" @click="filter = 'active'">Active</button>
+        <button :class="{ active: filter == 'completed' }" @click="filter = 'completed'">Completed</button>
+      </div>
+
+      <div>
+        <button>Clear Completed</button>
+      </div>
+    </div>
+
   </div>
 </template>
 
